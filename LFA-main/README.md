@@ -81,7 +81,7 @@ To run the program, follow these steps:
 3. Use command "g++ adv_dfa_minimization_engine.cpp -o adv_dfa_minimization_engine.exe".
 4. Use command "adv_dfa_minimization_engine.exe \<input file name\>".
 
-## Project 4 OLX Crawler
+# Project 4 OLX Crawler
 
 ## Before using the crawler, you will need to install these:
 1. Visual Studio Code + Live Server extension.
