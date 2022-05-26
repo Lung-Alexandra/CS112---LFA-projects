@@ -103,6 +103,11 @@ The Crawler will automatically run in the opened webpage. If you want to use the
 
 # Project 6 (Turing Machine)
 ## Turing Machine input file validation 
+
+1.Open CMD.
+2.Use cd to reach the Project6(Turing Machine)\TM validator folder path.
+3.Use command "TM_Validation.py <input file name>.
+
 Format of input file:
 ```
 #
@@ -181,3 +186,5 @@ Reject state:
 End
 ```
 An example of an input file is tm_cofig_file.txt
+
+## Turing input file validation + word acceptance
