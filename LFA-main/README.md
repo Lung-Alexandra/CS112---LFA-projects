@@ -200,8 +200,6 @@ To run the program, follow these steps:
 2. Use *cd* to reach the **Project6(Turing Machine)**, then **TM accepting string** folder path.
 3. Use command "Accept_string_TM.py <input file name> <input file for string>".
 
-<<<<<<< HEAD
+
 In our case, the command will be "Accept_string_TM.py tm_config_file.txt input_tm.txt".
-=======
-In our case, the command will be "Accept_string_TM.py tm_config_file.txt input_tm.txt".
->>>>>>> 2655e364ea413a5e360ce6189e88a35dd3a32279
+
