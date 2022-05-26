@@ -98,4 +98,8 @@ To run the program, follow these steps:
 
 The Crawler will automatically run in the opened webpage. If you want to use the Crawler multiple times, just refresh the webpage (**Don't refresh it while the Crawler is running to avoid possible errors!**).
 
-# Project 6 Turing Machine
+# Project 5 (CFG)
+## CFG input file validation 
+
+# Project 6 (Turing Machine)
+## Turing Machine input file validation 
