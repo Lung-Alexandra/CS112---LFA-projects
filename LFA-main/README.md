@@ -162,13 +162,13 @@ Transitions:
 	(restul tranzitiilor)
 End
 #
-#   Comment 4
+#Comment 4
 #
 Start state:
     q1
 End
 #
-#   Comment 5
+#Comment 5
 #
 Accept state:
     q_accept
