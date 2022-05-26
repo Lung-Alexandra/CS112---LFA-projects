@@ -100,6 +100,51 @@ The Crawler will automatically run in the opened webpage. If you want to use the
 
 # Project 5 (CFG)
 ## CFG input file validation 
+To run the program, follow these steps:
+
+1. Open CMD.
+2. Use *cd* to reach the **Project5(CFG)**, then **CFG validator** folder path.
+3. Use command "CFG_validator.py <input file name>".
+
+In our case, the command will be "CFG_validator.py cfg_config_file.txt".
+
+Format of input file:
+```
+//
+//   Comment 0
+//
+Variables:
+    A
+    B
+End
+//
+//   Comment 1
+//
+Sigma:
+	0
+	1
+	#
+End
+//
+//   Comment 2
+//
+Rules:
+    A, 0A1
+    A, B
+    B, #
+    B, e
+End
+//
+//   Comment 3
+//
+Start variable:
+    A
+End
+//
+//   Comment 4
+//
+```
+
 
 # Project 6 (Turing Machine)
 
