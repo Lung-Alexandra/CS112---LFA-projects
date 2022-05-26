@@ -1,0 +1,23 @@
+#
+# comment line
+#
+Sigma:#
+#
+a  #bicicleta
+b      #de facut
+c   #ok
+End
+#
+# comment
+#
+States:
+q0,S
+q1
+q4,F   #sf
+End
+Transitions:
+q0,a,q1#a
+q0,b,q1#a
+q1,c,q4
+End
+#da

@@ -1,0 +1,5 @@
+# ninja log v5
+4	2390	6710443367921925	CMakeFiles/tema1.dir/main.cpp.obj	4b15da481ce9130
+1	291	6711978929270731	build.ninja	bcf8bc36e3c9b924
+2	1780	6711971480620407	CMakeFiles/dfa_minimization_engine.dir/dfa_minimization_engine.cpp.obj	f1c7725a51245dfe
+1780	2300	6711971485828733	dfa_minimization_engine.exe	96f8f17add84c481
