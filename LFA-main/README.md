@@ -110,7 +110,7 @@ To run the program, follow these steps:
 1. Open CMD.
 2. Use *cd* to reach the **Project6(Turing Machine)**, then **TM validator** folder path.
 3. Use command "TM_Validation.py <input file name>".
-4. 
+
 In our case, the command will be "TM_Validation.py tm_config_file.txt".
 
 Format of input file:
