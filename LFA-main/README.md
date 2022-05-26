@@ -110,6 +110,7 @@ To run the program, follow these steps:
 1. Open CMD.
 2. Use *cd* to reach the **Project6(Turing Machine)**, then **TM validator** folder path.
 3. Use command "TM_Validation.py <input file name>".
+In our case, the command will be "TM_Validation.py tm_config_file.txt".
 
 Format of input file:
 ```
@@ -191,3 +192,10 @@ End
 An example of an input file is tm_cofig_file.txt
 
 ## Turing input file validation + word acceptance
+
+To run the program, follow these steps:
+
+1. Open CMD.
+2. Use *cd* to reach the **Project6(Turing Machine)**, then **TM accepting string** folder path.
+3. Use command "Accept_string_TM.py <input file name> <input file for string>".
+In our case, the command will be "Accept_string_TM.py tm_config_file.txt input_tm.txt".
