@@ -104,7 +104,7 @@ The Crawler will automatically run in the opened webpage. If you want to use the
 # Project 6 (Turing Machine)
 ## Turing Machine input file validation 
 Format of input file:
-
+```
 #
 #   Comment 0
 #
@@ -162,13 +162,13 @@ Transitions:
 	(restul tranzitiilor)
 End
 #
-#Comment 4
+#   Comment 4
 #
 Start state:
     q1
 End
 #
-#Comment 5
+#   Comment 5
 #
 Accept state:
     q_accept
@@ -179,5 +179,5 @@ End
 Reject state:
     q_reject
 End
-
+```
 An example of an input file is tm_cofig_file.txt
