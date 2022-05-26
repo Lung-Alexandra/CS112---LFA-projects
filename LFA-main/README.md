@@ -103,3 +103,81 @@ The Crawler will automatically run in the opened webpage. If you want to use the
 
 # Project 6 (Turing Machine)
 ## Turing Machine input file validation 
+Format of input file:
+
+#
+#   Comment 0
+#
+States:
+	q1
+	...
+	...
+	...
+	qn
+	(restul starilor)
+	q_accept
+	q_reject
+END
+#
+#   Comment 1
+#
+Sigma:
+	0
+	...
+	...
+	(restul simbolurilor din alfabet)
+End
+#
+#   Comment 2
+#
+Gamma:
+	0
+	x
+	_
+	...
+	...
+	(restul simbolurilor din gamma)
+End
+#
+#   Comment 3
+#
+Transitions:
+	forma: stare_curenta stare_urmatoare simbol_citit simbolul_care_trebuie_pus_pe_banda R/L
+	q1 q2 0 _ R
+	q2 q2 x e R
+	q5 q2 _ e R
+	q5 q5 0 e L
+	q5 q5 x e L
+	q3 q5 _ e L
+	q3 q3 x e R
+	q2 q3 0 x R
+	q3 q4 0 e R
+	q4 q3 0 x R
+	q4 q4 x e R
+	q2 q_accept _ e R
+	q1 q_reject _ e R
+	q1 q_reject x e R
+	q4 q_reject _ e R
+	....
+	(restul tranzitiilor)
+End
+#
+#   Comment 4
+#
+Start state:
+    q1
+End
+#
+#   Comment 5
+#
+Accept state:
+    q_accept
+End
+#
+#   Comment 6
+#
+Reject state:
+    q_reject
+End
+
+An example of an input file is tm_cofig_file.txt
