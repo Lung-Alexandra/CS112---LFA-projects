@@ -1,0 +1,6 @@
+Drujbe: 27
+Fierăstraie: 14
+Bormașini: 17
+Burghie: 5
+Ciocane: 4
+Flexuri: 10
