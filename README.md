@@ -1,6 +1,4 @@
-# CS112---LFA-projects
-
-# Automata Theory and Formal Languages Projects
+# CS112 projects -- Automata Theory and Formal Languages Projects
 
 ## Content
 - Deterministic finite automaton
