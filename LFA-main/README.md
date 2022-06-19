@@ -1,3 +1,23 @@
+# Automata Theory and Formal Languages Projects
+
+## Content
+- Deterministic finite automaton
+	- DFA input file validation
+	- DFA word acceptance
+- Nondeterministic finite automaton
+	- NFA & ε-NFA input file validation
+	- NFA & ε-NFA word acceptance
+	- NFA to DFA conversion
+- DFA Minimization
+	- Myhill-Nerode theorem
+	- Dead states elimination
+- Context-Free Grammar
+	- CFG input file validation
+- Turing Machine
+	- TM input file validation
+	- TM word acceptance
+
+
 # PROJECT 1 (DFA validation & acceptance)
 
 ## DFA input file validation
@@ -81,6 +101,7 @@ To run the program, follow these steps:
 3. Use command "g++ adv_dfa_minimization_engine.cpp -o adv_dfa_minimization_engine.exe".
 4. Use command "adv_dfa_minimization_engine.exe \<input file name\>".
 
+
 # Project 4 OLX Crawler
 
 ## Before using the crawler, you will need to install these:
@@ -98,15 +119,17 @@ To run the program, follow these steps:
 
 The Crawler will automatically run in the opened webpage. If you want to use the Crawler multiple times, just refresh the webpage (**Don't refresh it while the Crawler is running to avoid possible errors!**).
 
+
 # Project 5 (CFG)
+
 ## CFG input file validation 
 To run the program, follow these steps:
 
 1. Open CMD.
-2. Use *cd* to reach the **Project5(CFG)**, then **CFG validator** folder path.
-3. Use command "CFG_validator.py \<input file name\>".
+2. Use *cd* to reach the **Project4 (CFG)**, then **CFG Validation** folder path.
+3. Use command "python cfgValidation.py \<config file name\>".
 
-In our case, the command will be "CFG_validator.py cfg_config_file.txt".
+In our case, the command will be "python cfgValidation.py configFile.txt".
 
 Format of input file:
 ```
@@ -153,10 +176,10 @@ End
 To run the program, follow these steps:
 
 1. Open CMD.
-2. Use *cd* to reach the **Project6(Turing Machine)**, then **TM validator** folder path.
-3. Use command "TM_Validation.py \<input file name\>".
+2. Use *cd* to reach the **Project5 (Turing Machine)**, then **TM Validation** folder path.
+3. Use command "python tmValidation.py \<config file name\>".
 
-In our case, the command will be "TM_Validation.py tm_config_file.txt".
+In our case, the command will be "python tmValidation.py configFile.txt".
 
 Format of input file:
 ```
@@ -235,16 +258,17 @@ Reject state:
     q_reject
 End
 ```
-An example of an input file is tm_cofig_file.txt
 
-## Turing input file validation + word acceptance
+## Turing Machine input file validation + word acceptance
 
 To run the program, follow these steps:
 
 1. Open CMD.
-2. Use *cd* to reach the **Project6(Turing Machine)**, then **TM accepting string** folder path.
-3. Use command "Accept_string_TM.py \<input file name\> \<input file for string\>".
+2. Use *cd* to reach the **Project5 (Turing Machine)**, then **TM Acceptance** folder path.
+3. Use command "python tmAcceptance.py \<config file name\> \<input file for string\>".
 
 
-In our case, the command will be "Accept_string_TM.py tm_config_file.txt input_tm.txt".
+In our case, the command will be "python tmAcceptance.py configFile.txt input.txt".
 
+
+**Our Turing Machine was created to describe the language L = {w | w contains 2<sup>n</sup> number of 0’s, n >= 0} over the alphabet {0}.**
